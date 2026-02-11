@@ -5,7 +5,7 @@ import {
   useMeeting,
   useParticipant,
 } from "@videosdk.live/react-sdk";
-import { authToken, createMeeting } from "./API";
+import { authToken, createMeeting } from "./api/index";
 import ReactPlayer from "react-player";
 
 function ParticipantView({ participantId }) {
